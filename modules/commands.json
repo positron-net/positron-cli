@@ -1,0 +1,77 @@
+[
+  {
+    "name": "help",
+    "description": "List of all commands",
+    "args": []
+  },
+  {
+    "name": "auth",
+    "description": "Generate your token",
+    "args": [
+      {
+        "name": "--user",
+        "description": "Your account username",
+        "required": true
+      },
+      {
+        "name": "--pass",
+        "description": "Your account password",
+        "required": true
+      },
+      {
+        "name": "--id",
+        "description": "Yout 4 digit uid to regenerate your token",
+        "required": false
+      }
+    ]
+  },
+  {
+    "name": "sendTo",
+    "description": "send a file to a client",
+    "args": [
+      {
+        "name": "--token",
+        "description": "Receiver client",
+        "required": true
+      },
+      {
+        "name": "--path",
+        "description": "File to send",
+        "required": true
+      }
+    ]
+  },
+  {
+    "name": "upload",
+    "description": "Upload on the network",
+    "args": [
+      {
+        "name": "--path",
+        "description": "File to send",
+        "required": true
+      }
+    ]
+  },
+  {
+    "name": "download",
+    "description": "Download file from the network",
+    "args": [
+      {
+        "name": "--id",
+        "description": "File id",
+        "required": true
+      }
+    ]
+  },
+  {
+    "name": "receive",
+    "description": "Active receiver",
+    "args": [
+      {
+        "name": "--port",
+        "description": "Listener port",
+        "required": true
+      }
+    ]
+  }
+]
