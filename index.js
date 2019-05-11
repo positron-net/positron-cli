@@ -1,11 +1,10 @@
-const pf = require('platform-folders')
 const chalk = require('chalk')
 
 // Import commands module
 const commands = require('./modules/commands.js')
 const { log } = require('./modules/Charge')
 
-global.CONF_DIR = `${pf.getConfigHome()}/PositronNetwork`
+global.CONF_DIR = `${process.env.HOME}/.config/PositronNetwork`
 const args = process.argv.splice(2)
 
 console.log('\033c')
