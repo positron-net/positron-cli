@@ -3,6 +3,7 @@ const chalk = require('chalk')
 
 // Import commands module
 const commands = require('./modules/commands.js')
+const { log } = require('./modules/Charge')
 
 global.CONF_DIR = `${pf.getConfigHome()}/PositronNetwork`
 const args = process.argv.splice(2)
@@ -21,6 +22,10 @@ console.log(chalk.yellow.bold(`
 
 `))
 
-commands(args[0], args.splice(1)).then(res => {
+commands(args[0], args.splice(1))
+.then(res => {
   require(`./commands/${res.command}.js`)(res.options)
+})
+.catch(res => {
+  log.error(res)
 })

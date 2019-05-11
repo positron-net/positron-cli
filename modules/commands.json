@@ -26,7 +26,7 @@
     ]
   },
   {
-    "name": "sendTo",
+    "name": "send",
     "description": "send a file to a client",
     "args": [
       {
@@ -70,7 +70,7 @@
       {
         "name": "--port",
         "description": "Listener port",
-        "required": true
+        "required": false
       }
     ]
   }
