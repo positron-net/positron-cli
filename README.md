@@ -1,4 +1,4 @@
-# Positron CLI
+![alt text](https://positron-net.github.io/website/assets/img/logo1.svg)
 A simple command line interface for the Positron Network
 
 ## Install
