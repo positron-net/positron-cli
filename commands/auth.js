@@ -1,5 +1,5 @@
 const db = require('../modules/db.js')
-const { auth, log } = require('../../Charge')
+const { auth, log } = require('../modules/Charge')
 
 module.exports = (options) => {
   log.info('Generating token...')
