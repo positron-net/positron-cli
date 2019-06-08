@@ -1,4 +1,6 @@
-<p style="text-align: center;"><img width="300" src="https://positron-net.github.io/website/assets/img/logo1.svg"></p>
+<div align="center">
+  <img width="300" src="https://positron-net.github.io/website/assets/img/logo1.svg">
+</div>
 A simple command line interface for the Positron Network
 
 ## Install
