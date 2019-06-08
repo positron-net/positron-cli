@@ -1,4 +1,4 @@
-![alt text](https://positron-net.github.io/website/assets/img/logo1.svg)
+<center><img width="300" src="https://positron-net.github.io/website/assets/img/logo1.svg"></center>
 A simple command line interface for the Positron Network
 
 ## Install
